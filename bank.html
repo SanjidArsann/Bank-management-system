@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Transection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="mt-10 mb-10 font-semibold text-5xl text-center"><span class="text-sky-600">Sanju</span> Commercial Bank Pvt. LTD</h1>
+    </header>
+    <main>
+        <setion class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-7/12 mx-auto text-white">
+                <div class="bg-sky-600 p-8 rounded-lg font-semibold  ">
+                    <h2 class="text-lg">Deposit</h2>
+                    <h3  class="text-4xl">$ <span id="deposit">00</span></h3>   
+                </div>
+                <div class="bg-green-600 p-8 rounded-lg font-semibold  ">
+                    <h2 class="text-lg">Balance</h2>
+                    <h3 class="text-4xl">$1209</h3>   
+                </div>
+                <div class="bg-red-600 p-8 rounded-lg font-semibold  ">
+                    <h2 class="text-lg">Withdraw</h2>
+                    <h3 class="text-4xl">$301</h3>   
+                </div>
+                
+            </div>
+        </setion>
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-7/12 mx-auto ">
+                <div class="bg-green-400  rounded-lg px-6">
+                    <h2 class="text-lg p-6 text-white font-semibold">Please Deposite</h2>
+                    <input id="depo-field" class="block w-9/12" type="number" name="" >
+                    <button id="deposite-btn" class="bg-sky-500 font-medium text-white my-4 py-2 px-2 rounded-lg hover:bg-sky-800">Deposite</button>
+                </div>
+                <div class="bg-green-400  rounded-lg px-6">
+                    <h2 class="text-lg p-6 text-white font-semibold">Please Withdraw</h2>
+                    <input class="block w-9/12" type="number" name="" id="">
+                    <button class="bg-red-500 font-medium text-white my-4 py-2 px-2 rounded-lg hover:bg-red-800">Withdraw</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="js/bank.js"></script>
+</body>
+</html>

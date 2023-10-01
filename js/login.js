@@ -6,10 +6,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passwordField.value;
 
     if(email === 'sanju@mail.com' && password === 'sanju'){
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('invalid user');
+        window.alert('Invalid user\nPlease! Enter your valid information');
     }
 
 })
