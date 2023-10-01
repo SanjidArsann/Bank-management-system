@@ -19,11 +19,11 @@
                 </div>
                 <div class="bg-green-600 p-8 rounded-lg font-semibold  ">
                     <h2 class="text-lg">Balance</h2>
-                    <h3 class="text-4xl">$1209</h3>   
+                    <h3 class="text-4xl">$ <span id="balance">00</span></h3>   
                 </div>
                 <div class="bg-red-600 p-8 rounded-lg font-semibold  ">
                     <h2 class="text-lg">Withdraw</h2>
-                    <h3 class="text-4xl">$301</h3>   
+                    <h3 class="text-4xl">$ <span id="withdraw">00</span></h3>   
                 </div>
                 
             </div>
@@ -37,14 +37,15 @@
                 </div>
                 <div class="bg-green-400  rounded-lg px-6">
                     <h2 class="text-lg p-6 text-white font-semibold">Please Withdraw</h2>
-                    <input class="block w-9/12" type="number" name="" id="">
-                    <button class="bg-red-500 font-medium text-white my-4 py-2 px-2 rounded-lg hover:bg-red-800">Withdraw</button>
+                    <input class="block w-9/12" type="number" name="" id="withdraw-field">
+                    <button id="withdraw-btn" class="bg-red-500 font-medium text-white my-4 py-2 px-2 rounded-lg hover:bg-red-800">Withdraw</button>
                 </div>
             </div>
 
         </section>
 
     </main>
-    <script src="js/bank.js"></script>
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
 </body>
 </html>

@@ -9,6 +9,14 @@ document.getElementById('deposite-btn').addEventListener('click',function(){
 
     const totalDeposit = depositValue + previousDeposit;
     deposit.innerText = totalDeposit;
+    
+//Total Balance
+    const balanceAmount = document.getElementById('balance');
+    const balanceString = balanceAmount.innerText;
+    const balance = parseFloat(balanceString);
+    const totalBalance = balance + depositValue;
+    balanceAmount.innerText = totalBalance;
+
 
     depositAmount.value = '';
 
