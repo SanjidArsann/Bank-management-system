@@ -28,7 +28,7 @@ document.getElementById('withdraw-btn').addEventListener('click',function(){
         
         const totalBalance = balance - withdrawValue;
    if(totalBalance < 0){
-    window.alert('Invalid Amount');
+    window.alert('Insufficient Balance');
 
     }   
     else{
